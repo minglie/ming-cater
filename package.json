@@ -1,0 +1,27 @@
+{
+  "name": "ming-cater",
+  "version": "1.0.0",
+  "description": "点餐系统",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --open --port 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minglie/ming-cater.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minglie/ming-cater/issues"
+  },
+  "homepage": "https://github.com/minglie/ming-cater#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1"
+  }
+}

@@ -1,1 +1,1 @@
-const path = require("path");const HtmlWebpackPlugin=require("html-webpack-plugin")const plugins = [    new HtmlWebpackPlugin{        }];module.exports = {    mode: "development"}
+const path = require("path");const HtmlWebpackPlugin=require("html-webpack-plugin")const htmlPlugin= new HtmlWebpackPlugin({    template:path.join(__dirname,'./src/index.html'),    filename:'index.html'})const plugins = [    htmlPlugin];module.exports = {    mode: "development",    plugins:plugins}
